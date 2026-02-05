@@ -11,4 +11,4 @@
    bash
    python3 portal_flood.py --url "http://10.0.0.1/client?page=dashboard" --users 100
 
-python3 portal_flood.py --url "http://10.0.0.1/client?page=dashboard" --continuous --duration 12000 --threads 200
+python3 portal_flood.py --url "http://10.0.0.1/client?page=dashboard" --continuous --duration 120000 --threads 200
