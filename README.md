@@ -25,3 +25,7 @@ python3 massive_flood.py --url "http://10.0.0.1/client?page=dashboard" --duratio
 --countdown 5 # Quick 5-second countdown
 
 python3 extreme_flood.py --url "http://10.0.0.1" --min 5000 --max 15000 --duration 600
+
+python3 portal_flood.py --url "http://10.0.0.1/client?page=dashboard" --users 1000 --no-variants
+
+python3 portal_flood.py --url "http://10.0.0.1/client?page=dashboard" --duration 300 --users 1000 --no-variants

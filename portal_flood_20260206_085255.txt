@@ -1,0 +1,70 @@
+================================================================================
+PORTAL FLOOD ATTACK REPORT
+================================================================================
+
+Target URL: http://10.0.0.1/client?page=dashboard
+Test Date: 2026-02-06 08:52:55
+Duration: 19.62 seconds
+
+📊 STATISTICS:
+----------------------------------------
+Total Requests: 1464
+Successful: 25
+Failed: 1439
+Success Rate: 1.71%
+
+Requests per Second: 74.63
+Average Response Time: 1704.33 ms
+
+📝 SAMPLE REQUESTS (First 50):
+----------------------------------------
+User 00407471: SUCCESS (220.1 ms)
+User 00117424: SUCCESS (283.7 ms)
+User 00423547: SUCCESS (241.8 ms)
+User 00583932: SUCCESS (279.6 ms)
+User 00938435: SUCCESS (322.0 ms)
+User 00855466: SUCCESS (342.3 ms)
+User 00220790: SUCCESS (296.6 ms)
+User 00898624: SUCCESS (258.9 ms)
+User 00222301: SUCCESS (375.6 ms)
+User 00014498: SUCCESS (342.8 ms)
+User 00644331: FAILED (503) (332.9 ms)
+User 00357860: FAILED (503) (345.6 ms)
+User 00754074: FAILED (503) (358.0 ms)
+User 00230640: FAILED (503) (187.4 ms)
+User 00440735: FAILED (503) (252.9 ms)
+User 00276356: FAILED (503) (239.1 ms)
+User 00309883: FAILED (503) (205.0 ms)
+User 00141429: FAILED (503) (252.0 ms)
+User 00377523: FAILED (503) (184.2 ms)
+User 00442183: FAILED (503) (120.5 ms)
+User 00777035: FAILED (503) (273.5 ms)
+User 00772757: FAILED (503) (147.6 ms)
+User 00868853: FAILED (503) (268.7 ms)
+User 00422144: FAILED (503) (200.2 ms)
+User 00185957: FAILED (503) (270.0 ms)
+User 00602781: FAILED (503) (217.6 ms)
+User 00195915: FAILED (503) (160.4 ms)
+User 00250501: SUCCESS (669.4 ms)
+User 00124532: FAILED (503) (184.9 ms)
+User 00510914: FAILED (503) (153.9 ms)
+User 00002746: FAILED (503) (327.0 ms)
+User 00227393: SUCCESS (785.6 ms)
+User 00823273: FAILED (503) (118.6 ms)
+User 00469198: FAILED (503) (155.0 ms)
+User 00778434: FAILED (503) (107.4 ms)
+User 00785752: FAILED (503) (114.9 ms)
+User 00078677: FAILED (503) (147.8 ms)
+User 00334763: FAILED (503) (157.9 ms)
+User 00887983: FAILED (503) (153.2 ms)
+User 00259367: FAILED (503) (211.1 ms)
+User 00898595: FAILED (503) (234.4 ms)
+User 00682551: FAILED (503) (268.2 ms)
+User 00018322: FAILED (503) (266.7 ms)
+User 00495884: FAILED (503) (258.8 ms)
+User 00667211: FAILED (503) (210.0 ms)
+User 00137082: FAILED (503) (260.0 ms)
+User 00864923: FAILED (503) (266.2 ms)
+User 00753899: FAILED (503) (236.4 ms)
+User 00134310: FAILED (503) (192.1 ms)
+User 00868445: FAILED (503) (259.1 ms)
