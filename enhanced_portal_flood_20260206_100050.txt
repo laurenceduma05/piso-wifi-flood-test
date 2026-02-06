@@ -3,16 +3,16 @@ ENHANCED PORTAL FLOOD ATTACK REPORT
 ================================================================================
 
 Target URL: http://10.0.0.1/client?page=dashboard
-Test Date: 2026-02-06 09:11:46
-Duration: 56.23 seconds
-Test Mode: Duration-based (300 seconds)
-Total Sessions: 4574
+Test Date: 2026-02-06 10:00:50
+Duration: 526.32 seconds
+Test Mode: Duration-based (30000 seconds)
+Total Sessions: 10533
 
 📊 STATISTICS:
 ----------------------------------------
-Total Requests: 6523
-Successful: 6485
-Failed: 38
-Success Rate: 99.42%
-Requests per Second: 116.00
+Total Requests: 15358
+Successful: 11096
+Failed: 4262
+Success Rate: 72.25%
+Requests per Second: 29.18
 
