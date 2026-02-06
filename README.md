@@ -12,3 +12,14 @@
    python3 portal_flood.py --url "http://10.0.0.1/client?page=dashboard" --users 100
 
 python3 portal_flood.py --url "http://10.0.0.1/client?page=dashboard" --continuous --duration 120000 --threads 200
+
+source myenv/bin/activate
+
+python3 massive_flood.py --url "http://10.0.0.1/client?page=dashboard" --duration 120000 --threads 200
+
+python3 massive_flood.py --url "http://10.0.0.1/client?page=dashboard" --duration 120000 --threads 2000
+--countdown 30
+
+--countdown 30 # 30-second countdown
+--countdown 0 # Start immediately
+--countdown 5 # Quick 5-second countdown
